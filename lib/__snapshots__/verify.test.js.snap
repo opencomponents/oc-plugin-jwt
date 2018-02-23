@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`verify when a key is not found in the keystore it returns an error with no token 1`] = `[Error: Key no-key not found]`;
+
+exports[`verify when a using a custom keystore returns the verified token with no errors 1`] = `
+Object {
+  "admin": true,
+  "name": "John Doe",
+  "sub": "1234567890",
+}
+`;
+
+exports[`verify when given a string that is not a token it returns an error with no token 1`] = `[Error: Invalid Token]`;
+
+exports[`verify when given a token that has been tampered with it returns an error with no token 1`] = `[JsonWebTokenError: invalid signature]`;
+
+exports[`verify when given a token that is missing the key id it returns an error with no token 1`] = `[Error: Token missing key id (kid) in header]`;
+
+exports[`verify when given a valid public key signed token returns the verified token with no errors 1`] = `
+Object {
+  "admin": true,
+  "name": "John Doe",
+  "sub": "1234567890",
+}
+`;
+
+exports[`verify when given a valid secret signed token returns the verified token with no errors 1`] = `
+Object {
+  "admin": true,
+  "name": "John Doe",
+  "sub": "1234567890",
+}
+`;

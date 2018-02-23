@@ -1,0 +1,4 @@
+**/_package/**
+**/node_modules/**
+**/coverage/**
+**/.idea/**

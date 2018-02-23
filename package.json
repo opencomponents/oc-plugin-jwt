@@ -1,0 +1,44 @@
+{
+  "name": "oc-plugin-jwt",
+  "version": "1.0.0",
+  "description": "OpenComponents Plugin for Verifying & Decoding JSON Web Tokens (JWT)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "codecov",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+      "*.js": ["eslint --fix", "git add"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opencomponents/oc-jwt.git"
+  },
+  "keywords": [
+    "opencomponents",
+    "oc",
+    "jwt",
+    "plugin",
+    "oc-plugin"
+  ],
+  "author": "Ant White <acwhite@opentable.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opencomponents/oc-plugin-jwt/issues"
+  },
+  "homepage": "https://github.com/opencomponents/oc-plugin-jwt#readme",
+  "devDependencies": {
+    "codecov": "3.0.0",
+    "eslint": "^4.18.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.0",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.10.2"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.1.1"
+  }
+}
