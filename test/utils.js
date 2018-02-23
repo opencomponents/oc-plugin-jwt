@@ -93,9 +93,11 @@ const getTokenWithMissingKeyId = data => {
 
 module.exports = {
   keys,
-  getTokenSignedWithPrivateKey,
-  getTokenSignedWithSecret,
-  getTokenWithUnknownKey,
-  getTokenThatHasBeenTamperedWith,
-  getTokenWithMissingKeyId
+  utils: {
+    getTokenSignedWithPrivateKey,
+    getTokenSignedWithSecret,
+    getTokenWithUnknownKey,
+    getTokenThatHasBeenTamperedWith,
+    getTokenWithMissingKeyId
+  }
 };

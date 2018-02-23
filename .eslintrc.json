@@ -19,7 +19,7 @@
     "prefer-const": "error"
   },
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 8,
     "sourceType": "module"
   }
 }
