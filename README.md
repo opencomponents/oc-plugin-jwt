@@ -37,13 +37,6 @@ registry.register(
         }
       }
     }
-  },
-  err => {
-    if (err) {
-      console.log('plugin initialisation failed:', err);
-    } else {
-      console.log('jwt verify now available');
-    }
   }
 );
 
@@ -65,13 +58,6 @@ registry.register(
           return callback(null, key);
         }
       }
-    }
-  },
-  err => {
-    if (err) {
-      console.log('plugin initialisation failed:', err);
-    } else {
-      console.log('jwt verify now available');
     }
   }
 );

@@ -1,6 +1,6 @@
 {
   "name": "oc-plugin-jwt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OpenComponents Plugin for Verifying & Decoding JSON Web Tokens (JWT)",
   "main": "index.js",
   "scripts": {
