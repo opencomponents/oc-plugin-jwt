@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/opencomponents/oc-plugin-jwt#readme",
   "devDependencies": {
-    "codecov": "3.0.0",
+    "codecov": "3.0.1",
     "eslint": "^4.18.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
